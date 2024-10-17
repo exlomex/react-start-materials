@@ -1,0 +1,25 @@
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  height: 40px;
+  cursor: pointer;
+
+  background-color: var(--dark-purple-color);
+  transition: background-color .2s ease;
+
+  &:hover {
+    background-color: var(--light-purple-color);
+  }
+
+  &.TextBtn {
+    color: var(--white-color);
+    font-size: 1.25em;
+    padding: 0 40px;
+  }
+
+  &.IconBtn {
+    width: 40px;
+  }
+}
