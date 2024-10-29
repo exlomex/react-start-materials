@@ -9,7 +9,7 @@ export const MainPage = () => {
 
     const StartBtnHandler = () => {
         // TODO откомментировать
-        // localStorage.setItem(USER_GUEST_KEY, String(false))
+        localStorage.setItem(USER_GUEST_KEY, String(false))
         navigate('/todos')
     }
 
