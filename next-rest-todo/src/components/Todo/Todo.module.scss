@@ -1,0 +1,25 @@
+.Todo {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  margin-bottom: 18px;
+
+  .CompletedTodo {
+    text-decoration: line-through;
+  }
+
+  .DeleteButton {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .StatusCheckbox {
+    width: 20px;
+    aspect-ratio: 1 / 1;
+  }
+
+  .TodoTitle {
+    font-size: 24px;
+  }
+}
+
